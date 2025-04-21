@@ -1,0 +1,97 @@
+.section{
+ display: flex
+}
+
+.block{
+    display: flex;
+    justify-content: space-between;
+}
+
+.block1{
+    justify-content: space-between;
+    height: 400px;
+    display: grid;
+}
+
+
+.block1 >.b1{
+    display: flex;
+    padding: 2px;
+    justify-content: space-between;
+    width: 650px;
+}
+
+.block1 >.b1 > div{
+    width: 296px;
+    height: 158px;
+    padding: 20px;
+}
+
+.block1 >div > div > h5{
+    font-family: 'Poppins', 'sans-serif';
+    font-weight: 500;
+    font-size: 18px;
+    color: #012970;
+}
+
+.block1 > .b2 > div{
+    height: 158px;
+    padding: 20px;
+    margin: 1px;
+}
+
+.block1 > div > div > div{
+    display:flex;
+    margin-top: 25px;   
+}
+
+.block1 > div > div > div > div> h6{
+    font-size: 28px;
+    color: #012970;
+    font-weight: 700;
+}
+.block1 > div > div > div > div{  
+    margin-top: -8px;
+    margin-left: 10px;
+    font-size: 13px;
+    color: #000000;
+    display: block;
+}
+
+.block1 > div > div{
+   border-radius:5px;
+   border: 0.2px transparent black;
+   background-color:white; 
+   box-shadow: 0px 0px 4px black; 
+}
+
+.block2 > div{
+    border-radius:5px;
+    border: 0.2px transparent black;
+    background-color:white; 
+    box-shadow: 0px 0px 4px black;   
+    margin-left: 20px;
+}
+.block2 > div > img{
+    height:200px; 
+    width:300px;
+}
+
+#a {
+    color: #012970;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-left: 10px;   
+}
+
+.sray{
+    border-radius: 100%;
+    height: 60px;
+    width: 80px;
+    justify-content: start;
+    overflow-x: hidden;
+}
+.sray > img{
+    height: 60px;
+    width: 80px;
+}
